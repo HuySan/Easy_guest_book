@@ -20,7 +20,7 @@
 </body>
 </html>
 <?php
-//This magicd
+//This magic
 require_once("func.php");
 
 $connect = @mysqli_connect('localhost','root','','nice_gb') or die("server connection fail");

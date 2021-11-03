@@ -4,7 +4,7 @@ function insert_value(){
 	$name = mysqli_real_escape_string($connect,$_POST['name']);
 	$message = mysqli_real_escape_string($connect,$_POST['message']);
 	$query = "INSERT INTO `nice_gb` (name,message) VALUES('$name','$message')";
-	mysqli_query($connect,$query) or die("Cooбщение не отправлено");
+	mysqli_query($connect,$query) or die("The request is invalid");
 }
 
 function select_value(){
